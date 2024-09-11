@@ -2,6 +2,8 @@ title: 7617 Code Standards
 description: Code standards documentation for FRC team 7617.
 theme: just-the-docs
 
+favicon_ico: "/assets/images/icon.ico"
+
 url: https://CoffeeCoder1.github.io/7617-code-standards
 
 # Aux links in the navbar
