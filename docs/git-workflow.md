@@ -19,10 +19,7 @@ Once a branch is ready to be merged and a pull request is opened, the pull reque
 1. Review the code
     * Read through the changes made and make sure that everything makes sense.
 2. Test the code
-    * You SHOULD merge main into the branch before testing to ensure that any changes since the branch was created work with the changes in the branch.
-    * Test using the simulator and make sure that everything works properly.
-    * If everything works in the simulator, test on the robot.
-        * You MUST NOT enable motors until the logic has been confirmed through Shuffleboard.
+    * The steps to do this can be found in the [Test Guidelines]({% link docs/test-guidelines.md %}).
 3. Contact the author about anything that needs to be changed
 4. Once code is ready, merge it into main
 
