@@ -3,6 +3,29 @@ layout: default
 title: Git Workflow
 ---
 
+# Introduction
+
+The git workflow used by 7617 prioritizes stability, ease of collaboration, and ease of debugging. The general steps to contribute are listed below.
+
+1. Create a branch
+    * The name MUST be something simple and descriptive. A good example would be something like `vision-point-to-tag` or `shooter-accuracy-improvements`.
+2. Make changes on that branch
+    * You MUST commit frequently and SHOULD push often to help with collaboration.
+3. Open a pull request
+    * Add any labels that apply and mention anyone who is relevant to the component being modified.
+
+Once a branch is ready to be merged and a pull request is opened, the pull request should be reviewed by another person and merged according to the steps below.
+
+1. Review the code
+    * Read through the changes made and make sure that everything makes sense.
+2. Test the code
+    * You SHOULD merge main into the branch before testing to ensure that any changes since the branch was created work with the changes in the branch.
+    * Test using the simulator and make sure that everything works properly.
+    * If everything works in the simulator, test on the robot.
+        * You MUST NOT enable motors until the logic has been confirmed through Shuffleboard.
+3. Contact the author about anything that needs to be changed
+4. Once code is ready, merge it into main
+
 # Merge guidelines
 
 The main branch MUST remain stable. Any changes that are made MUST be made on a branch and MUST be tested and reviewed by at least one other person before being merged into main.
