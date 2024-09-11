@@ -8,3 +8,9 @@ url: https://CoffeeCoder1.github.io/7617-code-standards
 aux_links:
   "7617 GitHub":
     - "https://github.com/roboblazers7617"
+
+# GitHub edit link
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/CoffeeCoder1/7617-code-standards" # Repo URL
+gh_edit_branch: "main"
