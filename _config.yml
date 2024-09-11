@@ -1,8 +1,10 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: FRC 7617 Code Standards
+description: Code standards documentation for FRC team 7617.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://CoffeeCoder1.github.io/7617-code-standards
 
+# Aux links in the navbar
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "7617 GitHub":
+    - "https://github.com/roboblazers7617"
