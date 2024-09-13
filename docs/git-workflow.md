@@ -3,7 +3,7 @@ layout: default
 title: Git Workflow
 ---
 
-# Introduction
+# Git Workflow
 
 The git workflow used by 7617 prioritizes stability, ease of collaboration, and ease of debugging. The general steps to contribute are listed below.
 

@@ -4,7 +4,7 @@ title: Formatting Rules
 parent: Style Guide
 ---
 
-# Introduction
+# Formatting Rules
 
 In general, most code MAY be formatted according to the formatter settings files in the git repository. The style that defines those files is defined in this section.
 

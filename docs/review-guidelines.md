@@ -3,6 +3,8 @@ layout: default
 title: Review Guidelines
 ---
 
+# Review Guidelines
+
 1. Read through the changes made
     * Check if things seem correct. If anything doesn't seem correct, you SHOULD contact the author and ask why it is written that way.
     * Code that doesn't follow the standards in this document MUST NOT be approved.

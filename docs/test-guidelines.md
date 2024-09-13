@@ -4,7 +4,7 @@ title: Test Guidelines
 parent: Review Guidelines
 ---
 
-# Introduction
+# Test Guidelines
 
 The test process used by 7617 prioritizes safety and is designed to show bugs while testing changes instead of after. The test process is described below.
 
