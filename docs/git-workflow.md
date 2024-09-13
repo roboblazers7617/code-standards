@@ -17,11 +17,8 @@ The git workflow used by 7617 prioritizes stability, ease of collaboration, and 
 Once a branch is ready to be merged and a pull request is opened, the pull request should be reviewed by another person and merged according to the steps below.
 
 1. Review the code
-    * Read through the changes made and make sure that everything makes sense.
-2. Test the code
-    * The steps to do this can be found in the [Test Guidelines]({% link docs/test-guidelines.md %}).
-3. Contact the author about anything that needs to be changed
-4. Once code is ready, merge it into main
+    * The steps to do this can be found in the [Review Guidelines]({% link docs/review-guidelines.md %})
+2. Once code is ready, merge it into main
 
 # Merge guidelines
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Test Guidelines
+parent: Review Guidelines
 ---
 
 # Introduction
