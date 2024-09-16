@@ -6,7 +6,7 @@ parent: Style Guide
 
 # Formatting Rules
 
-In general, most code MAY be formatted according to the formatter settings files in the git repository. The style that defines those files is defined in this section.
+In general, most code MAY be formatted according to the formatter settings files in the git repository. The style that defines those files is defined in this section, and MUST be followed.
 
 # Indentation
 
