@@ -23,3 +23,7 @@ In general, most code MAY be formatted according to the formatter settings files
 
 * A single linefeed character MUST be used for newlines.
 * A newline MUST be inserted at the end of every file.
+
+# Trailing whitespace
+
+* Lines MUST NOT have any trailing whitespace characters immediately before the newline character.
