@@ -19,3 +19,7 @@ In general, most code MAY be formatted according to the formatter settings files
 * Long lines SHOULD be split up where it makes sense (for example, long sequences of chained methods and long arrays should be split up over multiple lines)
 * In wrapped arrays, the last item MUST have a separator appended to it to reduce the size of git diffs and make merges easier
 
+# End-of-line characters
+
+* A single linefeed character MUST be used for newlines.
+* A newline MUST be inserted at the end of every file.
