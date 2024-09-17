@@ -23,7 +23,16 @@ class Launcher extends SubsystemBase
 ```java
 public void periodic()
 public void setVelocity(double velocity)
-public static Command getAutonomousCommand()
+```
+
+# Command names
+
+* SHOULD either be a verb or verb-noun combination
+* MUST use pascal case
+
+```java
+public static Command Shoot()
+public static Command RaiseArm()
 ```
 
 # Variable names
