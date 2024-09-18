@@ -7,7 +7,7 @@ title: Style Guide
 
 * SHOULD be a noun
 * MUST use pascal case
-* MUST use full words instead of acronyms
+* SHOULD use full words instead of acronyms
 
 ```java
 class Robot
