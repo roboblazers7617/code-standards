@@ -30,7 +30,7 @@ Changes to the code MUST be committed frequently and incrementally to make narro
 
 Commit messages MUST provide a clear and concise description of everything that the commit does, and commit descriptions MAY be used whenever more description is needed and to explain the reason why changes were made.
 
-When committing from the programming laptop, you SHOULD add yourself as a co-author by appending `Co-Authored By: Name <E-mail>` to the end of your commit message.
+When committing from the programming laptop, you SHOULD add yourself as a co-author by appending `Co-Authored By: Name <E-mail>` to the end of your commit message (this can be done in GitHub Desktop by clicking the `Add Co-Authors` button in the lower left corner of the description).
 
 # Pull Request guidelines
 
