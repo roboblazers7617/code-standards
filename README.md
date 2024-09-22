@@ -2,4 +2,4 @@
 
 Code standards for FRC team 7617.
 
-Website is hosted [here](https://CoffeeCoder1.github.io/7617-code-standards).
+Website is hosted [here](https://roboblazers7617.github.io/code-standards).

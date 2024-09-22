@@ -4,7 +4,7 @@ theme: just-the-docs
 
 favicon_ico: "/assets/images/icon.ico"
 
-url: https://CoffeeCoder1.github.io/7617-code-standards
+url: https://roboblazers7617.github.io/code-standards
 
 # Aux links in the navbar
 aux_links:
@@ -18,6 +18,6 @@ back_to_top_text: "Back to top"
 # GitHub edit link
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/CoffeeCoder1/7617-code-standards" # Repo URL
+gh_edit_repository: "https://github.com/roboblazers7617/code-standards" # Repo URL
 gh_edit_branch: "main"
 gh_edit_view_mode: "tree"
