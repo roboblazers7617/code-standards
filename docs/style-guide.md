@@ -116,6 +116,29 @@ static public XboxController operatorController;
 * SHOULD include any implementation specifics that might be useful to whoever is using the object
 * References to classes MUST be linked to the classes they are referencing to make browsing the hosted Javadoc easier
 
+Examples:
+```java
+/**
+	 * safely set the target angle for the arm
+	 * 
+	 * @param targetDegrees
+	 *            the target angle for the arm in degrees
+	 */
+  public void setArmTarget(double targetDegrees) {
+    ...
+  }
+```
+```java
+/**
+   * get the velocity of the arm
+   *
+   * @return the velocity of the arm in m/s
+   */
+  public double getArmVelocity(){
+    ...
+  }
+```
+
 An example of what the hosted Javadoc looks like can be found [here](https://roboblazers7617.github.io/TShirtLauncher/).
 
 # Comments
