@@ -73,7 +73,7 @@ public static final int CLIMBER_ID;
 ```
 
 # Importing classes
-
+The following rules will be follwed by classes imported by VSCode. 
 * MUST be listed explicitly
 
 ```java
@@ -92,9 +92,11 @@ import frc.robot.commands.*;
 * MUST be given in the following order
 
 ```java
-<access> static abstract synchronized <unusual> final native
+<access> static abstract final
 ```
+(access aka public, private, etc.)
 
+For example: 
 ```java
 public static XBoxController driverController;
 ```
