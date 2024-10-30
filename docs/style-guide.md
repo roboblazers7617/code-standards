@@ -138,6 +138,8 @@ Examples:
     ...
   }
 ```
+When you hover over a function with Javadoc anywhere in the project it will apear. 
+![Javadoc in VSCode](/assets/images/javadoc-vscode.png)
 
 An example of what the hosted Javadoc looks like can be found [here](https://roboblazers7617.github.io/TShirtLauncher/).
 
