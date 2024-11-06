@@ -36,7 +36,7 @@ When committing from the programming laptop, you SHOULD add yourself as a co-aut
 
 Pull request titles MUST provide a clear description of what the PR does (a good title should give the reviewer a good idea of what the PR is changing without any other context). Pull request descriptions MUST describe, in detail, the changes made, SHOULD explain the reason why changes are being made, and SHOULD provide any additional context that could be helpful while reviewing the PR (for example, anything that could potentially cause unexpected behavior should be documented).
 
-Pull requests SHOULD be incremental changes in a similar manner to commits. While commits SHOULD be individual changes, PRs SHOULD be larger changes, usually either adding a feature or resolving an issue.
+Pull requests SHOULD be larger then commits but not so rare that main becomes out of date. (https://github.com/roboblazers7617/2024Robot/commit/dca0b52)
 
 ## Draft Pull Requests
 
