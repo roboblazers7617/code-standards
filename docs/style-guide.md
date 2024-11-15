@@ -118,6 +118,15 @@ MUST NOT use
 static public XboxController operatorController;
 ```
 
+# Method Order
+Methods within a class should be in the following order.
+- Constructor
+- Periodic
+- Commands
+- Getters
+- Setters
+- Other functions
+
 # Javadoc
 
 * Java classes, methods, and constants MUST have a valid and complete Javadoc entry accompanying them
