@@ -119,7 +119,7 @@ static public XboxController operatorController;
 ```
 
 # Method Order
-Methods within a class should be in the following order.
+Methods within a class SHOULD be in the following order.
 - Constructor
 - Periodic
 - Commands
