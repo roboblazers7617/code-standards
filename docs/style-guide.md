@@ -25,6 +25,17 @@ public void periodic()
 public void setVelocity(double velocity)
 ```
 
+### Boolean methods
+
+* SHOULD use `is` or `has` as a prefix before the function name
+* MUST NOT be negated (an example of a negated name would be `isNotSpinning`)
+* SHOULD ask a question that can be answered `true` or `false`
+
+``` java
+boolean isIntakeLowered() {...};
+boolean isFlywheelAtTarget() {...};
+```
+
 # Command names
 
 * SHOULD either be a verb or verb-noun combination
