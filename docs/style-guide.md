@@ -32,9 +32,10 @@ public void setVelocity(double velocity)
 * SHOULD ask a question that can be answered `true` or `false`
 
 ``` java
-boolean isIntakeLowered() {...};
-boolean isFlywheelAtTarget() {...};
+boolean isIntakeLowered() {...}
+boolean isFlywheelAtTarget() {...}
 ```
+
 
 # Command names
 
@@ -44,6 +45,14 @@ boolean isFlywheelAtTarget() {...};
 ```java
 public static Command Shoot()
 public static Command RaiseArm()
+```
+
+### Command methods
+
+* SHOULD end in `Command`
+``` java
+Command raiseArmCommand() {/* A command to raise the arm*/}
+void raiseArm() {/* a function to raise the arm*/}
 ```
 
 # Variable names
