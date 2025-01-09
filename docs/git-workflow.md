@@ -28,7 +28,7 @@ The main branch MUST remain stable. Any changes that are made MUST be made on a 
 
 Changes to the code MUST be committed frequently and incrementally to make narrowing down problems while testing code easier (reverting commits is easy, reverting changes within a commit is not). You MUST NOT commit once at the end of the day with a message like `End of practice` or `End of day 1`.
 
-Commit messages MUST provide a clear and concise description of everything that the commit does, and commit descriptions MAY be used whenever more description is needed and to explain the reason why changes were made.
+Commit messages MUST provide a clear and concise description of everything that the commit does, and commit descriptions MAY be used whenever more description is needed and to explain the reason why changes were made. Commit messages SHOULD be in sentence case without any punctuation and commit descriptions SHOULD be in sentence case with appropriate punctuation.
 
 When committing from the programming laptop, you SHOULD add yourself as a co-author by appending `Co-Authored By: Name <E-mail>` to the end of your commit message (this can be done in GitHub Desktop by clicking the `Add Co-Authors` button in the lower left corner of the description).
 
