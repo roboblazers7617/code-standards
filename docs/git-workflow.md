@@ -32,21 +32,27 @@ Commit messages MUST provide a clear and concise description of everything that 
 
 When committing from the programming laptop, you SHOULD add yourself as a co-author by appending `Co-Authored By: Name <E-mail>` to the end of your commit message (this can be done in GitHub Desktop by clicking the `Add Co-Authors` button in the lower left corner of the description).
 
-# Pull Request guidelines
+# Issue / PR Guidelines
+
+## Titles
+
+Titles SHOULD be in sentence case without any punctuation.
+
+## Pull Request guidelines
 
 Pull request titles MUST provide a clear description of what the PR does (a good title should give the reviewer a good idea of what the PR is changing without any other context). Pull request descriptions MUST describe, in detail, the changes made, SHOULD explain the reason why changes are being made, and SHOULD provide any additional context that could be helpful while reviewing the PR (for example, anything that could potentially cause unexpected behavior should be documented).
 
 Pull requests SHOULD be larger then commits but not so rare that main becomes out of date. ([example](https://github.com/roboblazers7617/2024Robot/commit/dca0b52))
 
-## Draft Pull Requests
+### Draft Pull Requests
 
 If a change is taking a long time to complete, a draft PR SHOULD be created to track progress and aid with collaboration.
 
-# Issue guidelines
+## Issue guidelines
 
 When problems are encountered, issues SHOULD be created to track progress and aid with collaboration. If a branch or PR is created that resolves an issue, it SHOULD be linked to the corresponding issue. Any contributors who will be contributing code to resolve the issue SHOULD be marked as assignees in the issue, and any appropriate labels SHOULD be added.
 
-# Issue / PR comments
+## Comments
 
 Comments on issues and PRs SHOULD be used to track progress while working on resolving issues.
 
