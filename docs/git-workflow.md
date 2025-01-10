@@ -22,7 +22,7 @@ Once a branch is ready to be merged and a pull request is opened, the pull reque
 
 # Merge guidelines
 
-The main branch MUST remain stable. Any changes that are made MUST be made on a branch and MUST be tested and reviewed by at least one other person before being merged into main.
+The main branch MUST remain stable. Any changes that are made MUST be made on a branch and MUST be tested and reviewed by at least one other person before being merged into main. Wherever possible, squash merges SHOULD be avoided to retain a detailed commit history.
 
 # Commit guidelines
 
