@@ -27,3 +27,7 @@ In general, most code MAY be formatted according to the formatter settings files
 # Trailing whitespace
 
 * Lines MUST NOT have any trailing whitespace characters immediately before the newline character.
+
+# Annotations
+
+* Empty lines MUST NOT be present between annotations and the declarations they affect.
