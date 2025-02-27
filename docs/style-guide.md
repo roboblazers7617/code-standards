@@ -36,23 +36,17 @@ boolean isIntakeLowered() {...}
 boolean isFlywheelAtTarget() {...}
 ```
 
-
 # Command names
 
 * SHOULD either be a verb or verb-noun combination
-* MUST use pascal case
-
-```java
-public static Command Shoot()
-public static Command RaiseArm()
-```
-
-### Command methods
-
 * SHOULD end in `Command`
+
 ``` java
-Command raiseArmCommand() {/* A command to raise the arm*/}
-void raiseArm() {/* a function to raise the arm*/}
+Command raiseArmCommand() {/* A command to raise the arm */}
+void raiseArm() {/* A method to raise the arm */}
+
+class LockWheelsCommand extends Command {...}
+class WaitUntilButtonCommand extends Command {...}
 ```
 
 # Variable names
