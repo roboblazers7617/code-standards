@@ -60,4 +60,4 @@ When information is needed or someone needs to see a comment for any other reaso
 
 # Git tags
 
-Git tags MUST be created at the beginning and the end of every competition and MAY be created for any other large milestones. Tags MUST be named `vX.Y.Z`, in which `X` is incremented for every competition (starting at 0 for pre-competition tags), and `Y` and `Z` are incremented for milestone tags. Whether to increment `Y` or `Z` is at the discretion of the person creating the tag. Tag descriptions MUST include a short description of why the tag is being created (an example would be `v1.0.0` with the description `Start of Plainfield`).
+Git tags MUST be created at the beginning and the end of every competition and MAY be created for any other large milestones. Tags MUST be named with a short description of what the tag is. For tournament tags, the tag should be named `[Start/End] of [Tournament Name]` (an example would be `End of Lafayette`). 
