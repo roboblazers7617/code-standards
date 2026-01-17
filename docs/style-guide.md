@@ -86,6 +86,28 @@ public static final double MIN_BATTERY_VOLTAGE;
 public static final int CLIMBER_ID;
 ```
 
+# Enum names
+
+* MUST use pascal case
+* Constants MUST use uppercase snake case
+* SHOULD describe the general function, not the function of all the options
+
+```java
+enum IntakeMode {
+	FLOOR,
+	SOURCE,
+}
+```
+
+MUST NOT use
+
+```java
+enum IntakeFloorSource {
+	FloorMode,
+	source
+}
+```
+
 # Importing classes
 The following rules will be follwed by classes imported by VSCode. 
 * MUST be listed explicitly
@@ -132,7 +154,7 @@ Methods within a class SHOULD be in the following order.
 
 # Javadoc
 
-* Java classes, methods, and constants MUST have a valid and complete Javadoc entry accompanying them
+* Java classes, methods, constants, and enums MUST have a valid and complete Javadoc entry accompanying them
 * Javadoc entries MUST describe the full function of the object they are documenting, even if the description is redundant with the name of the object
 * Javadoc entries MUST accurately describe the function of any parameters
 * Javadoc entries MUST describe the return type and returned object if applicable
