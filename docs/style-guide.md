@@ -36,23 +36,17 @@ boolean isIntakeLowered() {...}
 boolean isFlywheelAtTarget() {...}
 ```
 
-
 # Command names
 
 * SHOULD either be a verb or verb-noun combination
-* MUST use pascal case
-
-```java
-public static Command Shoot()
-public static Command RaiseArm()
-```
-
-### Command methods
-
 * SHOULD end in `Command`
+
 ``` java
-Command raiseArmCommand() {/* A command to raise the arm*/}
-void raiseArm() {/* a function to raise the arm*/}
+Command raiseArmCommand() {/* A command to raise the arm */}
+void raiseArm() {/* A method to raise the arm */}
+
+class LockWheelsCommand extends Command {...}
+class WaitUntilButtonCommand extends Command {...}
 ```
 
 # Variable names
@@ -90,6 +84,28 @@ boolean isFlywheelAtTarget;
 ```java
 public static final double MIN_BATTERY_VOLTAGE;
 public static final int CLIMBER_ID;
+```
+
+# Enum names
+
+* MUST use pascal case
+* Constants MUST use uppercase snake case
+* SHOULD describe the general function, not the function of all the options
+
+```java
+enum IntakeMode {
+	FLOOR,
+	SOURCE,
+}
+```
+
+MUST NOT use
+
+```java
+enum IntakeFloorSource {
+	FloorMode,
+	source
+}
 ```
 
 # Importing classes
@@ -138,14 +154,14 @@ Methods within a class SHOULD be in the following order.
 
 # Javadoc
 
-* Java classes, methods, and constants MUST have a valid and complete Javadoc entry accompanying them
-* Javadoc entries MUST describe the full function of the object they are documenting, even if the description is redundant with the name of the object
+* Java classes, methods, and constants SHOULD have a valid and complete Javadoc entry accompanying them
+* If present, Javadoc entries MUST describe the full function of the object they are documenting, even if the description is redundant with the name of the object
 * Javadoc entries MUST accurately describe the function of any parameters
 * Javadoc entries MUST describe the return type and returned object if applicable
 * Javadoc entries SHOULD include any implementation specifics that might be useful to whoever is using the object
 * Javadoc entries SHOULD be written in sentence case with appropriate punctuation
 * Descriptions of Javadoc annotations like `@param` and `@return` MUST be on the next line
-* References to classes MUST be linked to the classes they are referencing to make browsing the hosted Javadoc easier
+* References to classes SHOULD be linked to the classes they are referencing to make browsing the hosted Javadoc easier
 
 Examples:
 ```java
@@ -161,7 +177,7 @@ public void setArmTarget(double targetDegrees) {
 ```
 ```java
 /**
- * Gets the velocity of the arm.
+ * Gets the velocity of the {@link Arm}.
  *
  * @return
  *         the velocity of the arm in m/s
@@ -173,7 +189,7 @@ public double getArmVelocity(){
 When you hover over a function with Javadoc anywhere in the project it will apear. 
 ![Javadoc in VSCode](/code-standards/assets/images/javadoc-vscode.png)
 
-An example of what the hosted Javadoc looks like can be found [here](https://roboblazers7617.github.io/2025Robot/).
+An example of what the hosted Javadoc looks like can be found [here](https://roboblazers7617.github.io/2026Robot/).
 
 # Comments
 
